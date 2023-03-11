@@ -1,5 +1,9 @@
 package com.example.demo11.constants;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
 public class AppConfig {
     public static final String PAYLOAD_BUNDLE = "agro_bundle";
 
@@ -26,4 +30,20 @@ public class AppConfig {
     public static final String SHARED_PREF = "ah_firebase";
 
     public static String authToken ="";
-   }
+
+
+
+    public static boolean isNetworkConnectedMainThred(Context ctx) {
+
+        ConnectivityManager cm = (ConnectivityManager) ctx
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo ni = cm.getActiveNetworkInfo();
+        if (ni == null)
+            return false;
+        else
+            return true;
+    }
+
+
+
+}

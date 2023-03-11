@@ -1,7 +1,6 @@
 package com.example.demo11.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,11 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.demo11.PlayersActivity;
 import com.example.demo11.R;
-import com.example.demo11.databinding.ItemBowlingBinding;
 import com.example.demo11.model.Bowling;
-import com.example.demo11.model.MyModel;
 
 import java.util.List;
 

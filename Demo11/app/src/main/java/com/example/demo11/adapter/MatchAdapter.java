@@ -9,9 +9,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.demo11.PlayersActivity;
+import com.example.demo11.view.PlayersActivity;
 import com.example.demo11.R;
-import com.example.demo11.databinding.MatchItemBinding;
 import com.example.demo11.model.MyModel;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.demo11;
+package com.example.demo11.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
+import com.example.demo11.R;
 import com.example.demo11.adapter.BattingAdapter;
 import com.example.demo11.adapter.BowlingAdapter;
 import com.example.demo11.adapter.Squad2Adapter;
