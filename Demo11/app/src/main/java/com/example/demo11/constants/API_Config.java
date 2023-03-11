@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class API_Config {
-    public static String URL = "https://kamkaro.live/raj/";
+    public static String URL = "https://demo.sportz.io/";
 
     public static ApiServices getApiClient_ByPost() {
         OkHttpClient okHttpClient = new OkHttpClient.Builder()

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Demo11</string>
+    <string name="matches">Matches</string>
+    <string name="squad">Squad</string>
+    <string name="average">Average</string>
+    <string name="strikerate">Strikerate</string>
+    <string name="runs">Runs</string>
+    <string name="batting">Batting</string>
+    <string name="bowling">Bowling</string>
+    <string name="economyrate">Economyrate</string>
+    <string name="wickets">Wickets</string>
+</resources>

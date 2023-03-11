@@ -7,35 +7,35 @@ import java.util.List;
 public class MyModel {
 
     @SerializedName("Teams")
-    private List<Teams> teams;
+    private Teams teams;
 
     @SerializedName("Match")
-    private List<Match> match;
+    private Match match;
 
     @SerializedName("Venue")
-    private List<Venue> venues;
+    private Venue venues;
 
-    public List<Teams> getTeams() {
+    public Teams getTeams() {
         return teams;
     }
 
-    public List<Match> getMatch() {
+    public Match getMatch() {
         return match;
     }
 
-    public List<Venue> getVenues() {
+    public Venue getVenues() {
         return venues;
     }
 
-    public void setTeams(List<Teams> teams) {
+    public void setTeams(Teams teams) {
         this.teams = teams;
     }
 
-    public void setMatch(List<Match> match) {
+    public void setMatch(Match match) {
         this.match = match;
     }
 
-    public void setVenues(List<Venue> venues) {
+    public void setVenues(Venue venues) {
         this.venues = venues;
     }
 }
