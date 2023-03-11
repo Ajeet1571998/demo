@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "753713232851",
+    "project_id": "let-s-emigrats",
+    "storage_bucket": "let-s-emigrats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753713232851:android:64fd947a5242be0ad94d26",
+        "android_client_info": {
+          "package_name": "com.gmark.letsemigrats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753713232851-r4920vddn01lh5prmmfhf2r9c4slgtma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmark.letsemigrats",
+            "certificate_hash": "0f5405591c931aa685992f10cad1e178b04f56bf"
+          }
+        },
+        {
+          "client_id": "753713232851-109t6012rhov8au9k4nl85pu7eqqp94j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZmipRd0NybZYGPl0qzi1AtYfyUWfvnkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753713232851-109t6012rhov8au9k4nl85pu7eqqp94j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
